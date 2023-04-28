@@ -1,0 +1,24 @@
+.productCont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.searchCont {
+    padding-top: 1.25rem;
+    text-align: center;
+    margin: 0 auto;
+
+    .search {
+        outline: none;
+    }
+}
+.error {
+    font-size: 3.4375rem;
+    text-align: center;
+}
+
+.header {
+    background-color: red;
+}

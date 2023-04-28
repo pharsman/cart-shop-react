@@ -1,0 +1,33 @@
+.product {
+    width: 25rem;
+    border: 0.125rem solid black;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    margin-top: 0.625rem;
+
+    .img {
+        margin-left: 2.875rem;
+        width: 18.75rem;
+        padding: 0.125rem;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .title {
+        font-size: 1.875rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .view {
+        margin-left: 30%;
+        background-color: aqua;
+        padding: 0.625rem 2.8125rem;
+        border-radius: 3.75rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
